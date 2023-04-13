@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="CSS/estilo.css">
+
+  <title>Formulario de contacto</title>
+
+</head>
+<body>
+    <h2>Formulario de contacto</h2>
+
+   <form action="guardar.php" method="POST" id="contact_form" runat="server" enctype="multipart/form-data">
+
+    <label for="Nombre">Nombre:</label><br>
+    <input type="text" id="Nombre" name="Nombre" maxlength="30"required><br>
+
+    <label for="Apellidos">Apellidos:</label><br>
+    <input type="text" id="Apellidos" name="Apellidos" maxlength="60"required><br>
+
+    <label for="Nombre">Calle:</label><br>
+    <input type="text" id="Calle" name="Calle" maxlength="60"required><br>
+
+    <label for="Telefono">Telefono</label><br>
+    <input type="text" id="Telefono" name="Telefono" maxlength="10"required><br>
+
+
+    
+    
+    <button class="submit" type="submit">Enviar Registro</button> 
+
+    <br>
+    <p>"La fuerza y el crecimiento llegan del esfuerzo continuo"" </p>
+    
+  </section>
+  </form>
+
+</body>
+</html>
